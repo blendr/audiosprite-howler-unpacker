@@ -1,0 +1,19 @@
+{
+  "name": "audiosprite-howler-unpacker",
+  "version": "0.1.0",
+  "description": "audiosprite-howler-unpacker",
+  "main": "index.js",
+  "config": {
+    "clazz": "AudiospriteHowlerUnpacker"
+  },
+  "scripts": {
+    "build": "browserify index.js --standalone $npm_package_config_clazz | uglifyjs --compress --mangle -o $npm_package_name.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nicolas Bouvet <bouvet.nicolas@gmail.com> (http://www.nico-boo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.0.1"
+  }
+}
