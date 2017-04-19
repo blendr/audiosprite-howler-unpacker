@@ -1,7 +1,7 @@
 {
-  "name": "audiosprite-howler-unpacker",
+  "name": "blendr-audiosprite-howler-unpacker",
   "version": "0.1.0",
-  "description": "audiosprite-howler-unpacker",
+  "description": "blendr-audiosprite-howler-unpacker",
   "main": "index.js",
   "config": {
     "clazz": "AudiospriteHowlerUnpacker"
